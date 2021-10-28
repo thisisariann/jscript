@@ -1,7 +1,7 @@
 //CRUD en memoria RAM
 //TodoList
 
-const toDoList = ["estudiar js", "fallar", "aprender"];
+const toDoList = ["estudiar js", "fallar", "learn"];
 
 let app = document.getElementById("app");
 
