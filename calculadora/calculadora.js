@@ -11,7 +11,7 @@ class Calculadora {
 //ESCENARIO - GIVEN
 const calculator = new Calculadora();
 
-//ACCIÓN - WHEN
+//ACCIÓN - WHEN;
 calculator.sum(2);
 calculator.substract(4);
 

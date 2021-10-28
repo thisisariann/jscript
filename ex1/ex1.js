@@ -16,7 +16,3 @@ let shopping = [
 for (let item of shopping) {
   console.log(`shop: ${item.shop},product: ${item.product}`);
 }
-
-if (shopping == "zara") {
-  console.log(shopping.item);
-}
