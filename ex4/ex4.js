@@ -1,19 +1,19 @@
 //Teniendo un input de texto y un botón: Desarrollar una función que al hacer click en él, escriba el contenido (value) del input como un título en el documento.
 
-/*const title = "Bon Dia";
-let value = document.getElementById("enter");
+const title = ["Bon Dia", "Bona Tarda", "Bonanit"];
+let input = document.getElementById("enter");
 
-function print(element, title) {
-  let value = document.getElementById(element);
-  value.innerHTML = "enter";
+print("input", title);
+
+function add() {
   for (const item of title) {
-    value.innerHTML += `<h1>${item}</h1>`;
   }
 }
 
-print("enter", title);
-
-function add(newTxt) {
-  title.push(newTxt);
-  print("enter", title);
-}*/
+function print(element, title) {
+  let input = document.getElementById(element);
+  input.innerHTML = "enter";
+  for (const item of title) {
+    input.innerHTML += `<h1>${item}</h1>`;
+  }
+}
